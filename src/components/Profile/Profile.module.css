@@ -14,9 +14,10 @@
   gap: 20px;
 }
 .imageSvg {
+  border-radius: 50%;
   margin: 20px auto;
 }
-.name {
+.nameHero {
   font-family: 'Inter Tight';
   font-size: 44px;
   font-style: normal;
@@ -24,14 +25,20 @@
   line-height: 1;
   letter-spacing: -1.32px;
 }
-.email.address {
+.email {
   font-family: 'Inter Tight';
   font-size: 24px;
   font-weight: 500;
   line-height: 1.16;
   letter-spacing: -0.72px;
 }
-
+.location {
+  font-family: 'Inter Tight';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.72px;
+}
 .wraper {
   display: flex;
   flex-direction: row;
@@ -49,12 +56,7 @@
   line-height: 1.5;
   letter-spacing: -0.4px;
 }
-.followers {
-  border-right: 3px solid #474f54;
-}
-.view {
-  border-right: 3px solid #474f54;
-}
+
 .number {
   display: inline-block;
   font-size: 20px;
