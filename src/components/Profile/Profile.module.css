@@ -1,56 +1,58 @@
 .containner {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 16px 32px;
-}
-.card {
   display: flex;
   flex-direction: column;
-  width: 900px;
-  background-color: #c7d5e0;
-  border: 3px solid #1c1d20;
+  width: 600px;
   border-radius: 24px;
   margin: 0 auto;
-  gap: 20px;
+  align-items: center;
+  background-color: #c7d5e0;
+  border: 3px solid #1c1d20;
 }
+
 .imageSvg {
+  display: block;
   border-radius: 50%;
   margin: 20px auto;
 }
 .nameHero {
-  font-family: 'Inter Tight';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   font-size: 44px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.5;
   letter-spacing: -1.32px;
 }
-.email {
-  font-family: 'Inter Tight';
-  font-size: 24px;
+.tag {
+  display: flex;
+  justify-content: space-evenly;
+  color: #9c9d97;
+  font-size: 30px;
   font-weight: 500;
-  line-height: 1.16;
-  letter-spacing: -0.72px;
+  line-height: 1.5;
 }
 .location {
-  font-family: 'Inter Tight';
-  font-size: 24px;
+  color: #9c9d97;
+  font-size: 40px;
   font-weight: 500;
-  line-height: 1.16;
-  letter-spacing: -0.72px;
 }
 .wraper {
   display: flex;
   flex-direction: row;
   background-color: #9c9d97;
   border-top: 3px solid #474f54;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
 }
 .itemList {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
   padding: 20px;
 }
 .spanText {
-  display: inline-block;
+  display: flex;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
@@ -58,7 +60,7 @@
 }
 
 .number {
-  display: inline-block;
+  display: flex;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;

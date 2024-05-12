@@ -23,11 +23,11 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  margin: 0 auto;
+  display: block;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 h1 {
@@ -69,6 +69,10 @@ button:focus-visible {
 ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
   margin: 0;
   padding: 0;
 }
