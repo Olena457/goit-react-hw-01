@@ -1,23 +1,18 @@
-.table {
-  border: 1px solid #474f54;
+.tr {
+  text-align: center;
+  font-size: 20px;
 }
-.thead {
-  background-color: #474f54;
-  color: aliceblue;
-}
-.tbody {
-  background-color: azure;
-}
-.th {
-  color: black;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 2;
-  text-transform: capitalize;
-}
+
 .td {
-  color: black;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 2;
+  border-top: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.tr:nth-child(odd) {
+  background: white;
+}
+
+.tr:nth-child(even) {
+  background: rgb(170, 181, 171);
 }

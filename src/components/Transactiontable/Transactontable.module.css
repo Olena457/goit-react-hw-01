@@ -4,3 +4,25 @@
   background-color: #e8ecef;
   border: 3px solid #1c1d20;
 }
+
+.tbody {
+  background-color: azure;
+}
+
+.th {
+  text-align: center;
+  font-size: 30px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+.thead {
+  background-color: rgb(11, 12, 12);
+  color: snow;
+}
