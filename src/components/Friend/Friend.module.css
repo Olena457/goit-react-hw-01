@@ -1,31 +1,38 @@
 .card {
-  width: 70px;
+  display: flex;
+  width: 100px;
   border: 1px solid #474f54;
+  border-radius: 4px;
   background-color: azure;
+  flex-direction: column;
 }
 .heroImage {
-  width: 50%;
+  width: 70px;
   margin: 20px auto;
 }
 .heroName {
   color: black;
-  font-size: 38px;
+  font-size: 20px;
   font-weight: 500;
-  line-height: 40px; /* 105.263% */
+  line-height: 40px;
   letter-spacing: -1.14px;
   text-transform: uppercase;
+  padding: 10px;
+  margin: 0 auto;
 }
 .online {
+  display: flex;
+  margin: 10px auto;
   color: #008000;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
-  line-height: 30px; /* 150% */
-  letter-spacing: -0.4px;
+  line-height: 2;
 }
 .offline {
+  display: flex;
+  margin: 5px auto;
   color: #ff0000;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
-  line-height: 30px; /* 150% */
-  letter-spacing: -0.4px;
+  line-height: 2;
 }

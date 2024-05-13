@@ -1,0 +1,23 @@
+.table {
+  border: 1px solid #474f54;
+}
+.thead {
+  background-color: #474f54;
+  color: aliceblue;
+}
+.tbody {
+  background-color: azure;
+}
+.th {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+  text-transform: capitalize;
+}
+.td {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 2;
+}
