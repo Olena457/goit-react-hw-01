@@ -1,17 +1,24 @@
 import css from './Profile.module.css';
+
 const Profile = ({
   name,
   tag,
   location,
-  avatar,
+  image,
   stats: { followers, views, likes },
 }) => {
   return (
     <div className={css.containner}>
       <div className={css.card}>
-        <img className={css.imageSvg} src={avatar} alt="" />
+        <img
+          className={css.imageSvg}
+          src={image}
+          alt="User avatar"
+          width={50}
+          size={50}
+        />
         <p className={css.nameHero}>{name}</p>
-        <p className={css.tag}>jgluke</p>
+        <p className={css.tag}>jgluke {tag}</p>
         <p className={css.location}>{location}</p>
       </div>
       <ul className={css.wraper}>
@@ -21,7 +28,7 @@ const Profile = ({
         </li>
         <li className={css.itemList}>
           <span className={css.spanText}>Views</span>
-          <span className={css.number}>{views}</span>
+          <span className={css.number}>{views ? views : 'No data'}</span>
         </li>
         <li className={css.itemList}>
           <span className={css.spanText}>Likes</span>

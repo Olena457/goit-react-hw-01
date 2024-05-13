@@ -11,8 +11,10 @@
 
 .imageSvg {
   display: block;
+  width: 50%;
   border-radius: 50%;
   margin: 20px auto;
+  background-color: blanchedalmond;
 }
 .nameHero {
   display: flex;
@@ -32,6 +34,8 @@
   line-height: 1.5;
 }
 .location {
+  display: flex;
+  justify-content: space-around;
   color: #9c9d97;
   font-size: 40px;
   font-weight: 500;

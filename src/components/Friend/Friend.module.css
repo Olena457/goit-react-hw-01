@@ -1,0 +1,31 @@
+.card {
+  width: 70px;
+  border: 1px solid #474f54;
+  background-color: azure;
+}
+.heroImage {
+  width: 50%;
+  margin: 20px auto;
+}
+.heroName {
+  color: black;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 40px; /* 105.263% */
+  letter-spacing: -1.14px;
+  text-transform: uppercase;
+}
+.online {
+  color: #008000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}
+.offline {
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.4px;
+}
