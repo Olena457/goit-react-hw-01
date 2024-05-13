@@ -17,7 +17,7 @@ function App() {
 
       <FriendList friends={friends} />
 
-      <TransactionHistory items={transactions} />
+      <TransactionHistory transactions={transactions} />
     </>
   );
 }
