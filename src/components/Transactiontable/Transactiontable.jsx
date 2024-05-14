@@ -14,7 +14,7 @@ const TransactionHistory = ({ transactions }) => {
       <tbody className={css.tbody}>
         {transactions.map(transaction => (
           <OneTransaction
-            key={transaction.id}
+            id={transaction.id}
             type={transaction.type}
             amount={transaction.amount}
             currency={transaction.currency}

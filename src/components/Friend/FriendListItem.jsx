@@ -1,4 +1,4 @@
-import css from './Friend.module.css';
+import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 const FriendListItem = ({ avatar, name, isOnline }) => {
   const classNames = clsx({ [css.online]: isOnline, [css.offline]: !isOnline });
