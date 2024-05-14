@@ -1,7 +1,7 @@
 import Profile from './components/Profile/Profile';
 import userData from './data.json';
 import friends from './friends.json';
-import FriendList from './components/FriendList/FriendList.jsx';
+import FriendList from './components/Friends/FriendList.jsx';
 import transactions from '../src/transaction.json';
 import TransactionHistory from './components/Transactiontable/Transactiontable.jsx';
 function App() {

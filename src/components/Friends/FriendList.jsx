@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import css from './FriendList.module.css';
-import FriendListItem from '../FriendListItem/FriendListItem.jsx';
+import FriendListItem from '../Friend/FriendListItem.jsx';
 const FriendList = ({ friends }) => {
   return (
     <div className={clsx(css.container)}>
